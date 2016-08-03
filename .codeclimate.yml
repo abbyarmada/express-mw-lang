@@ -1,4 +1,25 @@
-eslint:
-  enabled: true
-  config:
-    config: node_modules/eslint-config-volebonet/index.js
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+      - javascript
+      - python
+      - php
+  eslint:
+    enabled: true
+      config: node_modules/eslint-config-volebonet/index.js
+  fixme:
+    enabled: true
+ratings:
+  paths:
+  - "**.inc"
+  - "**.js"
+  - "**.jsx"
+  - "**.module"
+  - "**.php"
+  - "**.py"
+  - "**.rb"
+exclude_paths:
+- test/
