@@ -9,6 +9,7 @@ engines:
       - php
   eslint:
     enabled: true
+    config: 
       config: node_modules/eslint-config-volebonet/index.js
   fixme:
     enabled: true
